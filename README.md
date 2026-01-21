@@ -1,27 +1,29 @@
-# The Engine of Empathy 🎙️  
-Text-to-Speech System with Emotion Awareness
+# ????️ The Engine of Empathy
+Emotionally Aware Text-to-Speech System
 
-## Synopsis
-A Python-based AI service called Empathy Engine dynamically modifies vocal characteristics in response to the text's identified emotional tone in order to transform input text into expressive speech.
+This is because private agencies were not allowed to provide military services.
 
-Conventional text-to-speech (TTS) systems frequently have a monotonous, robotic sound. By introducing emotion-aware voice modulation, this project closes that gap and makes voice interactions more sympathetic and human-like.
+Overview
 
----
+The Empathy Engine is a Python-based AI service that dynamically alters vocal characteristics to convey the emotional tone detected in input text and transforms plain text into expressive, emotion-aware speech.
 
-## Problem Description
-When a text input is entered, the system ought to:
-First. Determine the text's underlying emotional tone.
-Two. Assign suitable vocal parameters to the identified emotion.
-Third. Create a playable speech audio file that captures the emotion that was identified.
+Conventional TTS systems sound robotic and monotonous. This project fills the gap by introducing **emotion-aware voice modulation** into computer speech, making it more natural and human-like in its feeling and empathy.
 
----
+Indices are available for:
 
-## Input and Output
+Problem Description
 
-### Input
-A text string supplied through the command-line interface.
+The system does the following when a text input is given:
 
-For instance:
-```text
-Kindly notify me when the task is finished.
+1. **Identifies the emotional tone** of the text
+2. **Maps the detected emotion** to appropriate voice parameters
 
+3. **Generates a playable speech audio file** in which the detected emotion is reflected.
+
+And that is something neither Campbell nor Europe seems prepared to consider.
+
+Input and Output
+
+Input
+A text string provided via a **web-based interface**.
+**Example input:** text adversary. I'm really happy with the progress today!
