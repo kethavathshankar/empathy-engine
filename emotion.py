@@ -1,17 +1,13 @@
-# emotion.py
 from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
 
 analyzer = SentimentIntensityAnalyzer()
 
 def detect_emotion(text):
-    scores = analyzer.polarity_scores(text)
-    compound = scores["compound"]
+    score = analyzer.polarity_scores(text)["compound"]
 
-    if compound >= 0.05:
-        emotion = "happy"
-    elif compound <= -0.05:
-        emotion = "frustrated"
+    if score >= 0.3:
+        return "happy", score
+    elif score <= -0.3:
+        return "frustrated", score
     else:
-        emotion = "neutral"
-
-    return emotion, compound
+        return "neutral", score

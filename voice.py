@@ -1,19 +1,7 @@
-# voice.py
-def map_emotion_to_voice(engine, emotion, intensity):
-    base_rate = 180
-    base_volume = 1.0
+from gtts import gTTS
+import os
 
-    if emotion == "happy":
-        rate = base_rate + int(40 * abs(intensity))
-        volume = min(1.0, base_volume + 0.2)
-
-    elif emotion == "frustrated":
-        rate = base_rate - int(30 * abs(intensity))
-        volume = base_volume - 0.3
-
-    else:  # neutral
-        rate = base_rate
-        volume = base_volume
-
-    engine.setProperty('rate', rate)
-    engine.setProperty('volume', volume)
+def generate_voice(text, emotion, output_path):
+    tts = gTTS(text=text, lang="en")
+    tts.save(output_path)
+    return output_path
