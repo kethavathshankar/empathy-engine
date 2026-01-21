@@ -63,17 +63,12 @@ Then,Then open Like: http://127.0.0.1:5000
 class
 
 flowchart TD
-A[User Input of Text] → B[Emotion
-B -> C{Emotion Type}
-C ->|Happy| D[Increase Rate & Volume]
-C -->|Frustrated| 
-E[Decre
-C -->|Neutral| F[Default Voice Settings
-D --> G[Text-to-Speech
-H --> G
-F -> G
-G --> H[Generate Audio File]
-H --> I[Play Audio in Browser]
+<p align="center">
+  <img src="https://github.com/kethavathshankar/empathy-engine/blob/main/Flowdiagram.png" 
+       alt="Empathy Engine Flowdiagram.png" 
+       width="700"/>
+</p>
+
 
 
 
