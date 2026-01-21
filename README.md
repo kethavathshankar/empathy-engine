@@ -1,29 +1,52 @@
-# ????️ The Engine of Empathy
-Emotionally Aware Text-to-Speech System
+# The Engine of Empathy
+# Emotion-Aware Text to Speech
 
-This is because private agencies were not allowed to provide military services.
+---
 
-Overview
+## Overview
 
-The Empathy Engine is a Python-based AI service that dynamically alters vocal characteristics to convey the emotional tone detected in input text and transforms plain text into expressive, emotion-aware speech.
+The **Empathy Engine** is a Python-driven AI program that can transform texts to audio by modulating voice attributes in response to the detected emotion in the text.
 
-Conventional TTS systems sound robotic and monotonous. This project fills the gap by introducing **emotion-aware voice modulation** into computer speech, making it more natural and human-like in its feeling and empathy.
+Unlike the usual TTS systems, which produce robot-like and monotoned output, the inclusion of **emotion-aware voice modulation** in the system makes the output more expression-like, thereby sounding human-like.
 
-Indices are available for:
+---
 
-Problem Description
+## Problem Statement
 
-The system does the following when a text input is given:
+On receiving a text input, the system should:
 
-1. **Identifies the emotional tone** of the text
-2. **Maps the detected emotion** to appropriate voice parameters
+1. Determine the tone of the text from an emotional standpoint.
+2. Assign the corresponding voice parameters for the identified emotion
 
-3. **Generates a playable speech audio file** in which the detected emotion is reflected.
+3. Produce an auditable playable voice file that embodies the expression.
 
-And that is something neither Campbell nor Europe seems prepared to consider.
+---
 
-Input and Output
+## Input and Output
 
-Input
-A text string provided via a **web-based interface**.
-**Example input:** text adversary. I'm really happy with the progress today!
+# Input
+input The text string is provided through a web interface. Example input:
+
+#### Output
+- Emotion Identified (Happy / Frustrated / Neutral)
+– Audio file for produced speech
+- Embedded audio player for listening
+---
+
+# System Flow
+
+```
+class
+
+flowchart TD
+A[User Input of Text] → B[Emotion
+B -> C{Emotion Type}
+C ->|Happy| D[Increase Rate & Volume]
+C -->|Frustrated| 
+E[Decre
+C -->|Neutral| F[Default Voice Settings
+D --> G[Text-to-Speech
+H --> G
+F -> G
+G --> H[Generate Audio File]
+H --> I[Play Audio in Browser]
