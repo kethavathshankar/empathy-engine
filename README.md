@@ -2,8 +2,11 @@
 # Emotion-Aware Text to Speech
 
 <p align="center">
-  <img src="https://github.com/kethavathshankar/empathy-engine/blob/main/ui-preview.png" alt="ui-preview.png" width="260"/>
+  <img src="https://github.com/kethavathshankar/empathy-engine/blob/main/ui-preview.png" 
+       alt="Empathy Engine UI Preview" 
+       width="700"/>
 </p>
+
 
 
 ---
