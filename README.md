@@ -2,7 +2,7 @@
 # Emotion-Aware Text to Speech
 
 <p align="center">
-  <img src="https://github.com/kethavathshankar/EcoInfinite_Nexu-s/blob/main/ui-preview.png" alt="RecyIndia Logo" width="260"/>
+  <img src="https://github.com/kethavathshankar/EcoInfinite_Nexu-s/blob/main/ui-preview.png" alt="ui-preview.png" width="260"/>
 </p>
 
 
