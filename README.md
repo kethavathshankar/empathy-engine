@@ -4,7 +4,7 @@
 <p align="center">
   <img src="https://github.com/kethavathshankar/empathy-engine/blob/main/ui-preview.png" 
        alt="Empathy Engine UI Preview" 
-       width="700"/>
+       width="900"/>
 </p>
 
 
