@@ -1,6 +1,11 @@
 # The Engine of Empathy
 # Emotion-Aware Text to Speech
 
+<p align="center">
+  <img src="https://github.com/kethavathshankar/EcoInfinite_Nexu-s/blob/main/r png .png" alt="RecyIndia Logo" width="260"/>
+</p>
+
+
 ---
 
 ## Overview
