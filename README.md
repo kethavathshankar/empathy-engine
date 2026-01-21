@@ -50,3 +50,20 @@ H --> G
 F -> G
 G --> H[Generate Audio File]
 H --> I[Play Audio in Browser]
+
+
+## Live Deployment Note
+
+This project is built using **Flask (Python backend)** and performs
+dynamic emotion detection and audio generation.
+
+⚠️ **GitHub Pages does not support backend frameworks like Flask**,  
+so the application cannot be hosted as a live interactive website on GitHub Pages.
+
+### How to Run Locally
+```bash
+git clone https://github.com/kethavathshankar/empathy-engine
+cd empathy-engine
+pip install -r requirements.txt
+python app.py
+
